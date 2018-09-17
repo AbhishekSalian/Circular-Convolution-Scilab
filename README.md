@@ -1,1 +1,1 @@
-# Circular-Convolution-Scilab-
+# Discrete-Circular-Convolution-Scilab-
