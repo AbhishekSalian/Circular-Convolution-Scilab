@@ -1,4 +1,4 @@
-//this function will calculate the DFT of input seqeunces
+//this function will calculate the DFT of input sequences
 
 function [X1K,X2K]=DFT(seq1, seq2)
    //calculating length of sequences of zero padding if sequences are not equal
