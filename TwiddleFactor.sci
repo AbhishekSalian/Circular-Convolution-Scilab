@@ -7,10 +7,10 @@
 //str="dft" or "idft"
 function w=TwiddleFactor(N,n,k,str)
     if str =="dft" then
-        w=cos(2*%pi*n*k/N)-%i*sin(2*%pi*n*k/N);
+        w=exp(-imult(2*%pi*n*k/N));
       
      end
      if str =="idft" then
-          w=cos(2*%pi*n*k/N)+%i*sin(2*%pi*n*k/N);
+        w=exp(imult(2*%pi*n*k/N));
      end
 endfunction
