@@ -1,3 +1,3 @@
 # Discrete-Circular-Convolution(Scilab program)
-CircularConvolution is the main module.
+CircularConvolution.sci is the main module.
 
